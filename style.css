@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  background-color: rgb(253, 242, 233);
+}
+
+#nav-bar{
+  position:fixed;
+  background-color:rgb(253, 242, 233);
+  text-align:center;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:20px;
+    padding-top:15px;
+  border:2px solid black;
+  font-size:15px;
+  padding-bottom:10px;
+}
+.nav-items{
+  display:flex;
+  justify-content: space-evenly;
+}
+#missionS{
+  background:#dbf4ff;
+  margin: auto;
+  text-align:center;
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+
+#border{
+  border-style: solid;
+}
+#exp{
+  text-align:center;
+  display:flex;
+  margin:30px 30px;
+  background:#dbf4ff;
+  border-radius: 30px;
+  border-style: solid;
+  padding: 10px 5px;
+  
+}
+
+#copyright{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+.buttons{
+  border-radius: 3px;
+  height:45px;
+  width:90px;
+  background-color: rgb(241, 148, 138);
+}
+.buttons:hover {
+    background-color:white;
+    box-shadow:0px 1px #620ad5;
+}
+#centr{
+  margin:auto;
+}
